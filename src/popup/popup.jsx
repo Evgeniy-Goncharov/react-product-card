@@ -14,6 +14,7 @@ export default function PopUp({ onClose, isShow, children }) {
         return () => {
             document.removeEventListener("keydown", handlerEsc);
         };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     return isShow ? (
