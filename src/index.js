@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from '/src/app/App';
+import App from './app/App';
 import product from "./mock";
 import { ThemeProvider } from 'styled-components';
 import theme from "./theme/defaultTheme";
